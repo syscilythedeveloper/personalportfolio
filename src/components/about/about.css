@@ -1,0 +1,161 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+}
+
+.about__me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(90deg, var(--color-primary-variant), var(--color-primary));
+    display: grid;
+    place-items: center;
+}
+
+
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    
+}
+
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    color: var(--color-white)
+}
+.about__cards:hover{
+    color: var(--color-bg-variant);
+}
+
+
+.about__card {
+    background: var(--color-primary-variant);
+    border: 2px solid var(--color-primary);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 3px 3px 5px #E49109;
+    transition: var(--transition);
+    height: 40vh;
+    overflow: scroll;
+    
+}
+
+
+.about__card:hover {
+    background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
+    border-color: var(--color-primary-variant);
+    
+    cursor: pointer;
+
+}
+
+.about__icon {
+    color: var(--color-white);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.bullet__points {
+    color:var(--color-primary);
+    justify-content: center;
+}
+
+.about__card h5 {
+    font-size: 0.95rem;
+    font-weight: bold;
+  
+}
+
+.about__button{
+    text-align: center;
+}
+
+.about__paragraph {
+    border: 2px solid var(--color-primary);
+    color: var(--color-white);
+    background: var(--color-primary-variant);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px #E49109;
+    text-align: left;
+    overflow: scroll; /* Enable vertical and horizontal scrollbars if content overflows */
+    max-height: 200px; /* Maximum height for the scrollable box */
+    max-width: 100%; /* Maximum width for the scrollable box */
+}
+
+.about__paragraph:hover{
+    background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
+    border-color: var(--color-primary-variant);
+    cursor:all-scroll;
+    color: var(--color-bg-variant)
+
+}
+
+ul{
+    padding: 0rem 1rem;
+}
+
+
+li{
+    list-style-type: disc; /* Use bullets as list markers */
+    text-align: left;
+    font-size:0.8rem;
+    
+   
+    
+}
+li:hover{
+    
+    color: var(--color-white);
+}
+
+
+/* ===========  media queries (medium devices: tablets)*/
+@media screen and (max-width: 1024px) {
+   .about__container{
+    grid-template-columns: 1fr;
+    gap:0;
+   }
+
+   .about__me{
+    width: 50%;
+    margin:2rem auto 4rem; 
+   }
+
+   .about__content p{
+    margin:1rem 0 1.5rem;
+   }
+
+}
+
+/* ===========  media queries (small deivces: mobile phones)*/
+@media screen and (max-width: 600px) {
+    .about__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+
+    }
+
+    .about__cards{
+        grid-template-columns: 1fr 1fr;
+        gap:1rem;
+    }
+
+        .about__content p{
+            margin: 1.5rem 0;
+        }
+}
+
