@@ -14,6 +14,11 @@
     border-radius: 2rem;
    
 }
+#portfolio h5{
+    color: var(--color-white);
+    text-shadow: 1px 1px 2px var(--color-primary-variant);
+    font-size: 0.9rem;
+}
 
 .portfolio__container:hover{
     background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
@@ -99,3 +104,20 @@
     justify-content: center; 
     align-items: center; 
 }
+
+
+/* ===========  media queries (medium devices: tablets)*/
+@media screen and (max-width: 1024px) {
+    .project__description{
+       align-content: center; }
+}
+
+/* ===========  media queries (small deivces: mobile phones)*/
+@media screen and (max-width: 600px) {
+    .project__description{
+        width: 75%;
+        margin: 5rem;
+        justify-content: center; 
+        align-items: center; }
+ }
+ 

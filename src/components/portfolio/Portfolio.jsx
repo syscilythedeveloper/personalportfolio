@@ -18,7 +18,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Portfolio = () => {
   return (
-    <section id='portfolio'>Portfolio
+    <section id='portfolio'>
       <h5> Portfolio</h5>
       <h2> Selected Project: Recipe App</h2>
       <div className='project__description'>I created this recipe app to complement my holistic approach to fitness and overall well-being. While I've consistently enjoyed physical fitness, I've recognized the importance of nutrition in achieving my goals. With this in mind, I developed a comprehensive full-stack application designed to assist in discovering nutritious recipes tailored to specific ingredients and nutritional needs. While I'm currently fine-tuning the frontend, the deployment phase is well underway. Scroll to explore the user's journey and experience with the app! </div><br/>

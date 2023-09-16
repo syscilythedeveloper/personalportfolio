@@ -22,7 +22,7 @@
 }
 
 .contact__option:hover{
-    background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
+    background: var(--color-primary);
     border-color: var(--color-primary-variant);
     color: var(--color-bg-variant);
     
@@ -37,6 +37,7 @@
 .contact__option a{
     margin-top: 0.7rem;
     display: inline-block;
+    width: fit-content;
     color: var(--color-white)
 }
 
@@ -59,3 +60,50 @@ input, textarea {
     resize: none;
     color: var(--color-primary)
 }
+
+#contact h5{
+    color: var(--color-white);
+    text-shadow: 1px 1px 2px var(--color-primary-variant);
+    font-size: 0.9rem;
+}
+
+/* ===========  media queries (medium devices: tablets)*/
+@media screen and (max-width: 1024px) {
+        .contact__option{
+            width: fit-content;
+            overflow: auto;
+            font-size: 0.6rem;
+            gap:2rem;
+            
+    
+        }
+    
+        .form{
+            width:fit-content;
+            gap:2rem;
+         }
+         
+     
+}
+ 
+ /* ===========  media queries (small deivces: mobile phones)*/
+ @media screen and (max-width: 600px) {
+    .contact__option{
+        width: fit-content;
+       
+
+    }
+
+    .form{
+        width:50vh;
+        gap:2rem;
+     }
+     
+     .container.contact__container{
+        width: 58%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    
+    }
+ }

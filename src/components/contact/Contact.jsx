@@ -23,17 +23,17 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>Contact
+    <section id='contact'>
     <h5> Get in Touch </h5>
     <h2> Contact Me</h2>
 
     <div className="container contact__container">
       <div className="contact__options">
         <article className='contact__option'>
-          <TfiEmail className="contact__option-icon" />
-          <h4>Email</h4>
-          <h5>sbrown@syscilythedeveloper.com</h5>
-          <a href='mailto:sbrown@syscilythedeveloper.com' target='_blank' rel="noreferrer" id='send__email'>Click here to send an email! </a>
+         
+          <h4><a href='mailto:sbrown@syscilythedeveloper.com' target='_blank' rel="noreferrer" id='send__email'> <TfiEmail className="contact__option-icon" /></a></h4>
+          <h5> <a href='mailto:sbrown@syscilythedeveloper.com' target='_blank' rel="noreferrer" id='send__email'>sbrown@syscilythedeveloper.com</a></h5>
+          
         </article>
 
 

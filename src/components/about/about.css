@@ -14,7 +14,11 @@
     place-items: center;
 }
 
-
+#about h5{
+    color: var(--color-white);
+    text-shadow: 1px 1px 2px var(--color-primary-variant);
+    font-size: 0.9rem;
+}
 
 .about__me-image {
     border-radius: 2rem;
@@ -32,18 +36,29 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    color: var(--color-white)
-}
-.about__cards:hover{
-    color: var(--color-bg-variant);
+    
 }
 
 
+.about__card__title{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background: var(--color-primary);
+        border-radius:  0 0 1rem 1rem;
+        box-shadow: 3px 3px 5px #E49109;
+        color: var(--color-bg-variant);
+        text-align: center;
+        font-size: 1rem;
+     
+       
+    
+}
 .about__card {
     background: var(--color-primary-variant);
     border: 2px solid var(--color-primary);
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0.2rem 1rem 1rem 1rem;
     text-align: center;
     box-shadow: 3px 3px 5px #E49109;
     transition: var(--transition);
@@ -54,15 +69,15 @@
 
 
 .about__card:hover {
-    background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
+    background: var(--color-primary);
     border-color: var(--color-primary-variant);
-    
+    color: var(--color-bg-variant);
     cursor: pointer;
 
 }
 
 .about__icon {
-    color: var(--color-white);
+    color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -75,6 +90,7 @@
 .about__card h5 {
     font-size: 0.95rem;
     font-weight: bold;
+
   
 }
 
@@ -97,7 +113,8 @@
 }
 
 .about__paragraph:hover{
-    background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
+    background: var(--color-primary);
+    
     border-color: var(--color-primary-variant);
     cursor:all-scroll;
     color: var(--color-bg-variant)
@@ -112,7 +129,7 @@ ul{
 li{
     list-style-type: disc; /* Use bullets as list markers */
     text-align: left;
-    font-size:0.8rem;
+    font-size:1rem;
     
    
     
@@ -150,12 +167,17 @@ li:hover{
     }
 
     .about__cards{
-        grid-template-columns: 1fr 1fr;
-        gap:1rem;
+        grid-template-columns:repeat(1, 400px);
+        gap:2rem;
+        margin: 10px 20px;
+        
     }
 
-        .about__content p{
-            margin: 1.5rem 0;
-        }
-}
+    .about__content {
+        margin: 10px 20px;
+        gap: 2rem;
+    }
 
+       
+    
+    }

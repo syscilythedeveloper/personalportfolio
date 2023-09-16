@@ -9,7 +9,7 @@ import {BsAward} from 'react-icons/bs'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get to Know</h5>
+      <h5>Get to Know</h5>  
       <h2> About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -21,24 +21,26 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <h3>Technical Competencies</h3>
+              <div className='about__card__title'>
+                <h3>Technical Competencies</h3>
+              
               <GiSkills className='about_icon'/><br />
+              </div>
               <ul>
-                <li> <small> Python</small></li>
-                <li> <small> Javascript</small> </li>
-                <li> <small> React</small></li>
-                <li> <small> PostgreSQL</small></li>
-                <li> <small> AWS</small></li>
-                <li> <small> Flask</small></li>
-                <li> <small> Jasmine</small></li>
-                <li> <small> Jinja</small></li>
-                <li> <small> MongoDB</small></li>
-                <li> <small> Algorithm</small></li>
-                <li> <small> Data Structures</small></li>
-                <li> <small> Object Oriented Programming</small></li>
-                <li> <small> jQuery</small></li>
-                <li> <small> Node.js <br/>&#40; in progress &#41;</small></li>
-                <li> <small> Java<br/> &#40; in progress &#41;</small></li>   
+                <li> <small> Object-Oriented Programming</small></li>
+                <li> <small> Cloud Computing</small> </li>
+                <li> <small> Frontend Developement</small></li>
+                <li> <small> Backend Development </small></li>
+                <li> <small> Algorithm </small></li>
+                <li> <small> Data Structures </small></li>
+                <li> <small> Web Development</small></li>
+                <li> <small> Database Management</small></li>
+                <li> <small> Version Control</small></li>
+                <li> <small> Testing and Debugging</small></li>
+                <li> <small> Restful APIs</small></li>
+                <li> <small> Security</small></li>
+                <li> <small> Containerization</small></li>
+          
               </ul>
             
              
@@ -48,8 +50,12 @@ const About = () => {
            
       
             <article className='about__card'>
+            
+              <div className='about__card__title'>
               <h3>Soft <br/>Skills</h3>
               <GiSkills className='about_icon'/><br />
+              </div>
+        
               <ul>
                 <li> <small> Communication</small></li>
                 <li> <small> Metacognitive Mastery</small></li>
@@ -65,13 +71,16 @@ const About = () => {
               
               </ul>
             
+            
              
           
             </article>
              <article className='about__card'>
+             <div className='about__card__title'>
 
               <h3>Impact</h3>
               <BsAward className='about_icon'/><br/>
+              </div>
               <ul>
                 <li><small> Supported students making an average of 1.75 years  worth of academic growth annually  </small></li>
                 <li><small> Collaborated on curriculum design to address real-world challenges effectively </small></li>
@@ -97,7 +106,7 @@ const About = () => {
           What started as a means to fill free hours has transformed into a lifelong quest for knowledge and innovation. My journey in tech continues to be a thrilling adventure, one filled with challenges, triumphs, and the perpetual quest to create and innovate. I'm excited to share this journey with you and to explore the endless possibilities that lie ahead. <br/> <br/>Join me on this exciting expedition into the ever-evolving world of technology!
           </blockquote>
           <div className='about__button'>
-            <a href="#contact" id='talk_button' className='btn btn-primary'> Let's Talk</a>
+            <a href="#contact" id='talk_button' className='btn btn-primary'> Let's Chat!</a>
             </div>
 
         </div>
