@@ -30,10 +30,10 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={gamehub} alt='landingpage' />
           </div>
-         <div className='links'>
-          <button className='btn btn-primary'> Github</button>
-          <button className='btn btn-primary'> Live Demo</button>
-         </div>
+          <div className='links'>
+            <a href="https://github.com/syscilythedeveloper/game_app" className='btn btn-primary' target="_blank" rel="noopener noreferrer">Github</a>
+            <a href="https://game-90rwrobiq-syscily-browns-projects.vercel.app/" className='btn btn-primary' target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
         </article>
         <AiOutlineArrowRight className='portfolio__icon'/>
 
