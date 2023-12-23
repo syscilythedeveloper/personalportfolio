@@ -1,6 +1,6 @@
 .portfolio__container{
     overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap;/* Prevent content from wrapping to the next line */
+    
     width: 100%;/* Set the desired width for the container */
     /*display: flex; /* Added to make the container a flex container 
     align-items: flex-start; /* Added to align items at the top */
@@ -19,6 +19,25 @@
     text-shadow: 1px 1px 2px var(--color-primary-variant);
     font-size: 0.9rem;
 }
+.project { 
+    width: 300px;
+    height: 200px;
+    margin: 5px 10px 10px 15px;
+    display: flex; /* Added to make children flex items */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+}
+
+.links {
+    margin-right: 10px
+
+}
+.links button {
+  
+    margin: 5px;
+    align-items: center
+}
 
 .portfolio__container:hover{
     background: linear-gradient(45deg, var(--color-primary-variant), var(--color-primary));
@@ -34,11 +53,10 @@
 }
 
 .project__description{
-    display: flex;
-    width: 75%;
-    margin-left: 10rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
     justify-content: center; 
-    align-items: center; 
+    overflow: hidden;
     
     
 }
