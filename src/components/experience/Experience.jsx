@@ -87,11 +87,12 @@ const Experience = () => {
           </article>
 
         </div>
+        </div>
 
         {/* End of Frontend */}
    
 
-      </div>
+     
       <div className="experience_backend">
       <div className='experience__title'>
       <h3 >Backend Development</h3>

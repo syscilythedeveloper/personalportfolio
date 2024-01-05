@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns:  1fr 1fr;
     gap:2rem;
+    
+    
 }
 
 .experience__container > div h3 {
@@ -30,6 +32,7 @@
     color: var(--color-primary);
     box-shadow: 3px 3px 5px #E49109;
     transition: var(--transition);
+    
 }
 
 .experience__container > div:hover {
@@ -54,6 +57,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    max-height: 200px;
+    overflow: scroll;
+   
 }
 
 .experience__details {
