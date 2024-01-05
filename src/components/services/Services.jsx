@@ -17,6 +17,10 @@ const MyServices = () => {
         <ul className="service__list">
           <li>
             <BiCheck className='service__list-icon' />
+            Collaboration with a dynamic team to develop a groundbreaking app aimed at empowering underserved populations to kickstart careers in technology.
+          </li>
+          <li>
+            <BiCheck className='service__list-icon' />
             Expertise in software design, object-oriented programming, debugging, and full-stack development
           </li>
           <li>
