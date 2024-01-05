@@ -15,56 +15,75 @@ const Experience = () => {
         <h3>Frontend Development</h3>
         </div>
         <div className="experience__content">
+
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                 <h4> HTML </h4>
-            
-              </div>
-
-            
+                 <h4> HTML </h4>              
           </article>
           
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
               <h4> CSS </h4>
-          
-            </div>
-           
           </article>
 
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
               <h4> Javascript </h4>
-          
-            </div>
           </article>
 
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-              <h4> React </h4>
-          
-            </div>
-
+              <h4> TypeScript </h4>
           </article>
 
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4> Bootstap </h4>
-            
-              </div>
+              <h4> React.js </h4>
           </article>
+
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
+                <h4> Bootstap </h4>  
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
               <h4> JQuery </h4>
-          
-            </div>
+          </article>
 
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Material-UI </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Redux </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Webpack </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Git </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Prettier </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Vite </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4> Tailwind </h4>
           </article>
 
         </div>
@@ -78,52 +97,55 @@ const Experience = () => {
       <h3 >Backend Development</h3>
       </div>
         <div className="experience__content">
+
           <article className = 'experience__details'>
-            <BsFillPatchCheckFill className="experience__details-icon" />
-            
-            <div>
+            <BsFillPatchCheckFill className="experience__details-icon" />     
               <h4> Python </h4>
-          
-            </div>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />     
+              <h4> RESTful API </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />     
+              <h4> SQLAlchemy </h4>
           </article>
           
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-              <div>
               <h4> PostgreSQL </h4>
-          
-              </div>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />     
+              <h4> Agile Methodologies </h4>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />     
+              <h4> Node.js </h4>
           </article>
 
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-            <div> 
             <h4> Flask </h4>
-        
-            </div>
           </article>
 
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
             <h4> Jinja </h4>
-        
-            </div>
+          </article>
+
+          <article className = 'experience__details'>
+            <BsFillPatchCheckFill className="experience__details-icon" />            
+            <h4> MongoDB </h4>
           </article>
 
           <article className = 'experience__details'>
             <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
-            <h4> MongoDB </h4>
-        
-            </div>
-          </article>
-          <article className = 'experience__details'>
-            <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
             <h4> Jasmine </h4>
-        
-            </div>
           </article>
 
         </div>
