@@ -53,7 +53,7 @@ const Portfolio = () => {
            
           </div>
         </article>
-        <AiOutlineArrowRight className='portfolio__icon' />
+       
       </div>
 
       <div className='github__link'>
